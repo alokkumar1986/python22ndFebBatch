@@ -1,0 +1,5 @@
+print("Hello world")
+print("")
+print("Hello Aptech")
+print()
+print("Hello Odisha")

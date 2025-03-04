@@ -1,0 +1,109 @@
+Different forms of input()
+----------------------------
+
+form1 : print() without or with argument : 
+
+print("Hello World")
+print()
+print("")
+print("Hello Aptech")
+output :
+Hello World 
+
+
+Hello Aptech
+Note : Every print() will give you output in a new line.
+=============================================
+form2 : print() with a string argument
+String : anything that is written a single or double quotes. 
+e.g. : "Aptech", 'Aptech'
+
+print("Hello World")
+
+Output : Hello World
+================================
+form3 : print() with a variable argument 
+a= 10
+print(a)
+
+output : 10
+======================================
+form4 : print() with both string and variable argument
+1)
+name = "Aptech"
+print("Your name is : ",name)
+
+output :
+Your name is : Aptech
+2) name = 'Apetch'
+   name1 = "Learning"
+   print(name, name1)
+ouput : AptechLearning
+3) print("your name is : ", "Aptech", "Learning")
+output : your name is : Aptech Learning
+======================================================
+form 5 : print() with 'end' attribute 
+
+print("Hello", end=" ")
+print("World")
+
+output: 
+Hello World
+==============================================
+form 6 : print() with "sep" attribute
+a = 10
+b = 20
+c = 30
+print(a, b, c)
+print(a, b, c, sep="") 
+
+output : 10 20 30
+         10,20,30
+
+================================================
+form7 : print with an object 
+object : Any tuple, set, dictionary or array 
+
+fruits = ["mango", 'apple', "pineapple", 'banana']
+print(fruits)
+
+output : 
+["mango", 'apple', "pineapple", 'banana']
+
+===================================================
+form8 : print() with {} replacement operator
+
+name = "ABCD"
+rollno = "1234"
+branch = "CSE"
+gender = "Male"
+
+print("Student Name : {}, RollNo : {}, Branch : {}, Gender : {}". format(name,rollno,branch,gender))
+
+
+Output : Student Name : ABCD, RollNo : 1234, Branch : CSE, Gender : Male
+
+========================================================================
+form9  : print() with formatted string
+%d : integer
+%f : float
+%c : character
+%i : integer
+
+name = "ABCD"
+rollno = "1234"
+branch = "CSE"
+gender = "Male"
+
+print("Student Name : %s", name)
+
+
+
+
+
+
+
+
+
+
+
