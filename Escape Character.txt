@@ -1,0 +1,67 @@
+Escape Character :
+\t : horizontal space
+=======================
+str = 'Aptech\tLearning'
+print(str)
+
+#output : Aptech Learning
+
+\n : new line
+========================
+str ='Aptech\nLearning'
+print(str)
+
+#output : Aptech
+          Learning
+===========================
+\b : Back Space
+
+str = 'Aptech\bLearning'
+print(str)
+
+#output : AptecLearning
+=============================
+\r : carriage return
+
+str = "Aptech\rLearning"
+print(str)
+
+#output : Learning
+==============================
+str = "Aptech's Student"
+print(str)
+
+#output : Error
+
+Note : If a string is enclosed within a single quote. then we can use double quote in between and vice versa.
+===========================================
+\' : single quote 
+
+str = 'Aptech\'s Student'
+print(str) 
+
+#output : Aptech's Student
+
+\" : double quote 
+
+str = 'Aptech\"s Student'
+print(str) 
+
+#output : Aptech"s Student
+
+=======================================
+\\ : Backslash
+str = 'a\\b'
+print(str)
+
+#output : a\b
+
+==================================
+\f : formfeed
+
+str = 'Aptech\fLearnig'
+print(str)
+
+
+
+
