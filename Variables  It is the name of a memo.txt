@@ -1,0 +1,36 @@
+Variables : It is the name of a memory location. It is also known as identifiers.
+
+So rules for declaring a variable is same as an identifiers.
+
+1) The variable name can contain 
+   alphabets (a-z/A-Z)
+   digits (0-9)
+   underscore (_)
+
+2) A variable name can start with an alphabet or underscore. But it cant start with a digit.
+
+3) A variable can not contain any symbol or special characters like (./\*&^%$#@).
+
+
+1) Find valid variables.
+cash# = 12  -----Invlaid
+__abc__ABC = 'Starting' -----valid
+
+2) type() : This method is a predefined method which gives the datatype of the variable.
+In python everything is an object. So datatypes are consider as a class.
+
+a = 5
+print(type(a)) #<class int>
+
+3) id() : This method is also a predefined method which gives the memory address of the variable stored.
+
+a = 5
+print(id(a)) #7687983709
+
+
+
+
+
+
+
+ 

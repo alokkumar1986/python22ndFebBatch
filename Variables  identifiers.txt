@@ -1,3 +1,13 @@
 Variables : identifiers
-datatypes
-operators
+datatypes  : Basic Datatype : Collection :List, Set , tuple, Dictionary, Frozen Set, range()
+operators : 
+
+Control FLow Statement : if, else, elif, for, while, break, continue, pass 
+
+OPS
+Library, Packages
+Exception Handling
+
+Communication with MySQL from Python
+
+

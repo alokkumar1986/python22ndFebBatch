@@ -1,0 +1,85 @@
+Datatypes : In python there are following datatypes 
+
+* basic datatypes
+1) int
+2) decimal
+3) complex
+4) bool
+5) bytes
+6) bytearray
+7) None
+
+* collection datatype: 
+8) list
+9) tuple
+10) set
+11) frozenset
+12) Dictionary
+13) String
+14)
+
+Basic vs Collection
+=====================
+a = 12
+a = [1, 2, 3, 'ABC', 10+10i]
+
+Basic datatypes can be hold a single variable with a single value. 
+But in collection datatype a variable can hold multiple value with multiple types
+
+Number datatype : The number datatypes are 
+
+integer: 122, -100
+float  : 122.0, 100.0
+complex : real part + imaginary part 10+10j
+
+==============================================
+
+implicit and explicit type casting : 
+
+When we assign a value to a variable, it takes datatype of the value. It is called implicit typecasting. i.e. Data type is assigned to a variable automatically. 
+
+When we forcefully change a variable datatype to another, it is called explicit typecasting.
+
+int(): Can convert any number to integer
+float() : can convert any number to float
+complex() : can convert any number to complex
+
+int -> float
+float -> int
+int -> complex
+float -> complex
+
+complex -> int       X (not possible)
+complex -> float     X (not possible)
+
+===================================
+
+#Write a program to generate 6 six digit OTP.
+
+random : This is module which used to generate random number.
+
+import random
+print(random.randrange(1,10))
+=============================================================
+
+String : Any value that is enclosed within single quote or double quote and assigned to a variable. It is called string datatype.
+
+1) a = "Aptech"
+print(type(a)) 
+
+#output : <class 'str'>
+
+2) b = 'We are learning python in Aptech Learning. Aptech is situated near Nayapalli.'
+print(b)
+
+#for writing multiline string, we must use ''' or """ to enclose the string.
+
+
+
+
+
+
+
+
+
+
