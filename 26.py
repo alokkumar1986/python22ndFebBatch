@@ -1,0 +1,13 @@
+print(10>9)
+print(type(10>9))
+print(bool(100))
+print(bool('Aptech'))
+print(bool(1.23))
+
+print(bool(0))
+print(bool(''))
+print(bool(None))
+print(bool(False))
+print(bool([]))
+print(bool(()))
+print(bool({}))

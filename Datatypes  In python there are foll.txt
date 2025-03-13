@@ -74,6 +74,91 @@ print(b)
 
 #for writing multiline string, we must use ''' or """ to enclose the string.
 
+3) String format with {} operator :
+
+potato = 20
+
+str = f'1 kg potato costs {potato} Rs' 
+
+print(str)
+
+#output : 1 kg potato costs 20 Rs.
+============================================
+
+name = 
+age = 
+
+My name is {}. My age is {}.
+
+
+===============================================
+4) String concatenation :
+
+a = 'Aptech'
+b = 'Learning'
+c = a+" "+b
+print(c)  #Output : Aptech Learning
+
+5) String as an Array
+
+String values are stored in a consecutive memory location. Like array, all the values /characters can be accessed with index number. index start from 0. 
+i.e.
+
+a = 'Aptech'
+
+print(a[0]) # A
+print(a[5]) # h
+print(a[100]) # error, string index out of range
+print(a[-1]) # h
+
+print(a[0], a[1], a[2], a[3], a[4],a[5])
+
+6) String slicing 
+
+Slice means to cut it in pieces. 
+syntax : [starting index:end index:jump]
+
+a = "Aptech"
+a[2:4]
+
+7) Modifying String with String methods:
+
+len() : We will find the length of the string.
+upper() : It will change the characters to upper case
+lower() : It will change the characters to lower case
+
+split() : It will split the string into multiple string. It will return a list.
+replace() : It will replace a string / character with another string or character.
+strip() : It will remove whitespaces from the string (leading and trailing).
+
+exercise : 
+
+1) str = 'Welcome'
+   print(str[3])  #c
+
+2) str = 'Welcome'
+   print(len(str))  #7
+
+3) str = 'Welcome'
+   print(str[0].lower()+str[1].upper()+str[2]+str[3].upper()+str[4]+str[5].upper()+str[6])  # wElCoMe
+
+4) str = 'Welcome'    
+   print(str[3:5]) #co
+
+5) str = 'Welcome'
+   print(str.replace('l', ' '))    #We come
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

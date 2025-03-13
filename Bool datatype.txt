@@ -1,0 +1,46 @@
+Bool :  In python bool type has two values.
+
+True, False
+
+print(10>9) #True
+
+print(type(10>9)) # 'class <bool>'
+
+
+1) Most of values are True  
+   print(bool(10))  # True
+
+Note : bool() : It is a predefined function which converts any value to Boolean.
+
+2) There are few values which are False
+   0
+  0.0
+  0+0j
+  ''
+  []
+  ()
+  {}
+  False
+  None
+
+str() : It will convert any datatype to string datatype.
+int --> str
+float --> str
+complex --> str
+bool --> str
+
+
+None : None is a special datatype. It means there is no value present.
+
+a = None
+a = ''
+a = 0
+
+a = None 
+
+if a==None:
+   print('There is no value present in a')
+else :
+   print('There is value present in a')
+
+
